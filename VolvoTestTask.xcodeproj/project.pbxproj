@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		258A435339BCC26592D99471 /* Pods_VolvoTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A053BF153B8E2D7E1C0B723 /* Pods_VolvoTestTask.framework */; };
 		3944ECE0217A5E6F00B893AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3944ECDF217A5E6F00B893AE /* AppDelegate.swift */; };
 		3944ECE2217A5E6F00B893AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3944ECE1217A5E6F00B893AE /* ViewController.swift */; };
 		3944ECE5217A5E6F00B893AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3944ECE3217A5E6F00B893AE /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		3944ECEA217A5E7000B893AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3944ECE8217A5E7000B893AE /* LaunchScreen.storyboard */; };
 		3944ECF5217A5E7000B893AE /* VolvoTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3944ECF4217A5E7000B893AE /* VolvoTestTaskTests.swift */; };
 		3944ED00217A5E7000B893AE /* VolvoTestTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3944ECFF217A5E7000B893AE /* VolvoTestTaskUITests.swift */; };
+		3944ED0E217A67B100B893AE /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3944ED0D217A67B100B893AE /* WeatherModel.swift */; };
+		3944ED12217A84D200B893AE /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3944ED11217A84D200B893AE /* WeatherTableViewCell.swift */; };
+		3944ED14217A94A500B893AE /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3944ED13217A94A500B893AE /* WeatherViewModel.swift */; };
+		39D7534B217AA1230014443C /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D7534A217AA1230014443C /* WebService.swift */; };
+		39D7534D217B960A0014443C /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D7534C217B960A0014443C /* JSONParser.swift */; };
+		39FEF109217D850F0086E93F /* DateUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FEF108217D850F0086E93F /* DateUtilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A053BF153B8E2D7E1C0B723 /* Pods_VolvoTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolvoTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3944ECDC217A5E6F00B893AE /* VolvoTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolvoTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3944ECDF217A5E6F00B893AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3944ECE1217A5E6F00B893AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		3944ECFB217A5E7000B893AE /* VolvoTestTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolvoTestTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3944ECFF217A5E7000B893AE /* VolvoTestTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolvoTestTaskUITests.swift; sourceTree = "<group>"; };
 		3944ED01217A5E7000B893AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3944ED0D217A67B100B893AE /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		3944ED11217A84D200B893AE /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		3944ED13217A94A500B893AE /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		39D7534A217AA1230014443C /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		39D7534C217B960A0014443C /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		39FEF108217D850F0086E93F /* DateUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtilities.swift; sourceTree = "<group>"; };
+		3DD7AAFCF335462CE012E7D3 /* Pods-VolvoTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolvoTestTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VolvoTestTask/Pods-VolvoTestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		9BCC41FF64FA73DD61EB4721 /* Pods-VolvoTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolvoTestTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-VolvoTestTask/Pods-VolvoTestTask.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				258A435339BCC26592D99471 /* Pods_VolvoTestTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040F8BBD24417FE10746F24B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A053BF153B8E2D7E1C0B723 /* Pods_VolvoTestTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3944ECD3217A5E6F00B893AE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				3944ECF3217A5E7000B893AE /* VolvoTestTaskTests */,
 				3944ECFE217A5E7000B893AE /* VolvoTestTaskUITests */,
 				3944ECDD217A5E6F00B893AE /* Products */,
+				A42BD45AA6A2850B75038830 /* Pods */,
+				040F8BBD24417FE10746F24B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +130,12 @@
 				3944ECE6217A5E7000B893AE /* Assets.xcassets */,
 				3944ECE8217A5E7000B893AE /* LaunchScreen.storyboard */,
 				3944ECEB217A5E7000B893AE /* Info.plist */,
+				3944ED0D217A67B100B893AE /* WeatherModel.swift */,
+				3944ED11217A84D200B893AE /* WeatherTableViewCell.swift */,
+				3944ED13217A94A500B893AE /* WeatherViewModel.swift */,
+				39D7534A217AA1230014443C /* WebService.swift */,
+				39D7534C217B960A0014443C /* JSONParser.swift */,
+				39FEF108217D850F0086E93F /* DateUtilities.swift */,
 			);
 			path = VolvoTestTask;
 			sourceTree = "<group>";
@@ -125,6 +158,15 @@
 			path = VolvoTestTaskUITests;
 			sourceTree = "<group>";
 		};
+		A42BD45AA6A2850B75038830 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DD7AAFCF335462CE012E7D3 /* Pods-VolvoTestTask.debug.xcconfig */,
+				9BCC41FF64FA73DD61EB4721 /* Pods-VolvoTestTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3944ED04217A5E7000B893AE /* Build configuration list for PBXNativeTarget "VolvoTestTask" */;
 			buildPhases = (
+				BB0650D81DE48BA77A244674 /* [CP] Check Pods Manifest.lock */,
 				3944ECD8217A5E6F00B893AE /* Sources */,
 				3944ECD9217A5E6F00B893AE /* Frameworks */,
 				3944ECDA217A5E6F00B893AE /* Resources */,
+				F5DBB6768C40DB377B2F9C8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,12 +295,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BB0650D81DE48BA77A244674 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VolvoTestTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5DBB6768C40DB377B2F9C8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VolvoTestTask/Pods-VolvoTestTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolvoTestTask/Pods-VolvoTestTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3944ECD8217A5E6F00B893AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39FEF109217D850F0086E93F /* DateUtilities.swift in Sources */,
+				39D7534B217AA1230014443C /* WebService.swift in Sources */,
+				3944ED14217A94A500B893AE /* WeatherViewModel.swift in Sources */,
+				39D7534D217B960A0014443C /* JSONParser.swift in Sources */,
+				3944ED12217A84D200B893AE /* WeatherTableViewCell.swift in Sources */,
 				3944ECE2217A5E6F00B893AE /* ViewController.swift in Sources */,
+				3944ED0E217A67B100B893AE /* WeatherModel.swift in Sources */,
 				3944ECE0217A5E6F00B893AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +533,7 @@
 		};
 		3944ED05217A5E7000B893AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD7AAFCF335462CE012E7D3 /* Pods-VolvoTestTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +552,7 @@
 		};
 		3944ED06217A5E7000B893AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BCC41FF64FA73DD61EB4721 /* Pods-VolvoTestTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

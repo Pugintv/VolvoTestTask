@@ -1,0 +1,6 @@
+framework module Pods_VolvoTestTask {
+  umbrella header "Pods-VolvoTestTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
